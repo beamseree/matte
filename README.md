@@ -10,11 +10,12 @@ Matte is a variable sans serif with one axis, weight, from Thin 100 to Black 900
 
 Download `Matte-<version>.zip` from the latest [release](https://github.com/beamseree/matte/releases/latest). Inside:
 
-| Folder | Use it for |
+| File | Use it for |
 |---|---|
-| `variable/Matte[wght].ttf` | Installing on your computer: every weight in one file. On macOS, open it and click Install Font; on Windows, right-click it and choose Install. |
-| `static/Matte-Thin.ttf` … `Matte-Black.ttf` | One file per weight, for apps that don't handle variable fonts well, such as some versions of Microsoft Office. Install the weights you need. |
-| `webfonts/Matte.woff2` | Websites |
+| `MatteVariable.ttf` | Installing on your computer: every weight in one file. On macOS, open it and click Install Font; on Windows, right-click it and choose Install. |
+| `MatteVariable.woff2` | Websites: every weight in one file |
+| `static/ttf/Matte-Thin.ttf` … `Matte-Black.ttf` | One file per weight, for apps that don't handle variable fonts well, such as some versions of Microsoft Office. Install the weights you need. |
+| `static/web/Matte-Thin.woff2` … `Matte-Black.woff2` | One file per weight, for websites that only need one or two weights |
 
 Install either the variable font or the separate weights, not both: they share their names, so apps can mix them up. The variable font and the webfont are also in this repo, in `fonts/`.
 
@@ -23,7 +24,7 @@ Install either the variable font or the separate weights, not both: they share t
 ```css
 @font-face {
   font-family: "Matte";
-  src: url("Matte.woff2") format("woff2");
+  src: url("MatteVariable.woff2") format("woff2");
   font-weight: 100 900;
   font-display: swap;
 }
