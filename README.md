@@ -8,14 +8,13 @@ Matte is a variable sans serif with one axis, weight, from Thin 100 to Black 900
 
 ## Download
 
-Get the latest version from [Releases](https://github.com/beamseree/matte/releases). Each release has:
+Download `Matte-<version>.zip` from the latest [release](https://github.com/beamseree/matte/releases/latest). Inside:
 
-| Download | Use it for |
+| Folder | Use it for |
 |---|---|
-| `Matte-Variable.ttf` | Installing on your computer: every weight in one file. On macOS, open it and click Install Font; on Windows, right-click it and choose Install. |
-| `Matte-Thin.ttf` … `Matte-Black.ttf` | One file per weight, for apps that don't handle variable fonts well, such as some versions of Microsoft Office. Install the weights you need. |
-| `Matte.woff2` | Websites |
-| `Matte-<version>.zip` | All of the above, with the license |
+| `variable/Matte[wght].ttf` | Installing on your computer: every weight in one file. On macOS, open it and click Install Font; on Windows, right-click it and choose Install. |
+| `static/Matte-Thin.ttf` … `Matte-Black.ttf` | One file per weight, for apps that don't handle variable fonts well, such as some versions of Microsoft Office. Install the weights you need. |
+| `webfonts/Matte.woff2` | Websites |
 
 Install either the variable font or the separate weights, not both: they share their names, so apps can mix them up. The variable font and the webfont are also in this repo, in `fonts/`.
 
